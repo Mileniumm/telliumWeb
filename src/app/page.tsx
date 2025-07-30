@@ -13,8 +13,8 @@ export default function ChamomileTea() {
               <li className="w-6 h-6 border-3 border-black rotate-45 bg-transparent"></li>
           </ul>
           </div>
-          <div className="flex flex-col w-full md:w-2/3 pl-30 mt-25 ml-25">
-          <h1 className="hidden md:block font-serif text-neutral-950 mb-5 font-bold w-16 md:text-4xl mt-2">TELLIUM</h1>
+          <div className="flex flex-col w-full md:w- pl-30 mt-25 ml-25">
+          <h1 className="hidden md:block font-serif text-neutral-950 mb-5 font-bold w-16 md:text-4xl mt-8">TELLIUM</h1>
           <h2 className="text-5xl font-serif mb-4 text-neutral-950 font-bold w-16 text-[140px]">CHAMOMILE TEA</h2>
           <div className="text-gray-700">
             <p className="mb-2 font-serif font-bold text-2xl text-neutral-950 md:text2xl">Countries</p>
