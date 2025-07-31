@@ -2,20 +2,21 @@ import { Diamond } from 'lucide-react';
 import Image from "next/image";
 export default function ChamomileTea() {
   return (
-      <main className="flex bg-neutral-100 w-full h-screen items-start justify-start ">
+      <main className="flex bg-neutral-100 w-full h-screen items-start justify-start">
           <div className="flex flex-row w-full h-full">
-              <div className="flex flex-col justify-center items-center w-1/6 p-4 space-y-4 gap-30 absolute top-30">
+              <div className="hidden flex flex-col justify-center items-center w-1/6 p-4 space-y-4 md:flex">
                   <div className="w-8 h-8 rotate-45 bg-black"/>
-                  <ul className="mb-auto flex flex-col space-y-4 justify-between gap-30">
+                  <ul className="mb-auto flex flex-col space-y-4 justify-between h-full">
               <li className="w-6 h-6 border-3 border-black rotate-45 bg-transparent"></li>
               <li className="w-6 h-6 border-3 border-black rotate-45 bg-transparent"></li>
               <li className="w-6 h-6 border-3 border-black rotate-45 bg-transparent"></li>
               <li className="w-6 h-6 border-3 border-black rotate-45 bg-transparent"></li>
           </ul>
           </div>
-          <div className="flex flex-col w-full md:w- pl-30 mt-25 ml-25">
-          <h1 className="hidden md:block font-serif text-neutral-950 mb-5 font-bold w-16 md:text-4xl mt-8">TELLIUM</h1>
-          <h2 className="text-5xl font-serif mb-4 text-neutral-950 font-bold w-16 text-[140px]">CHAMOMILE TEA</h2>
+          <div className="flex flex-col w-full p-4">
+
+          <h1 className="hidden md:block font-serif text-neutral-950 mb-5 font-bold w-16 md:text-4xl">TELLIUM</h1>
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-serif text-neutral-950 font-bold w-16">CHAMOMILE TEA</h2>
           <div className="text-gray-700">
             <p className="mb-2 font-serif font-bold text-2xl text-neutral-950 md:text2xl">Countries</p>
               <p className="mb-2 font-serif md:"> China - Japan - Korea - Morocco</p>
@@ -31,7 +32,7 @@ export default function ChamomileTea() {
               <p className="mb-2 font-serif">Grassy, fresh, with subtle sweetness</p>
           </div>
           </div>
-          <div className="absolute md:relative flex flex-col md:w-1/2 h-full mt-25 ">
+          <div className="absolute md:relative flex flex-col md:w-1/2 h-full">
               <Image className={"flex flex-col relative w-full h-full opacity-25 object-cover md:object-scale-down md:opacity-100"}
                      width={1200}
                      height={800}
